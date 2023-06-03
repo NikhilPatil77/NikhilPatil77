@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color:lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.wrap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+#time{
+    z-index: 1;
+    color: rgb(65, 65, 65);
+    background: linear-gradient(54deg, #00bbff 47.10000000000002px, #89ffe9 252.10000000000002px);
+    font-size: 30px;
+    margin-bottom: 60px;
+    position: relative;
+    border-radius: 5px;
+    padding: 0px;
+}
+
+/* #background{
+    background-color: azure;
+    position: absolute;
+    z-index: -99;
+    height: 218px;
+    width: 110%;
+    top: -29px;
+    left: -5%;
+    border-radius: 5px;
+} */
+
+#background{
+    background-color: #f0ffff73;
+    position: absolute;
+    z-index: -99;
+    height: 218px;
+    width: 110%;
+    top: -29px;
+    left: -5%;
+    border-radius: 5px;
+    backdrop-filter: blur(-73px);
+    backdrop-filter: blur(4px);
+    border: solid 0.1px white;
+}
+
+
+.btn{
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.btn button{
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, #00ffee, #00d9ff);
+}
+
+
+
+
+
+#zig-zag3 {
+    background: 
+    linear-gradient(145deg, #ccc 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, #ccc 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, #ccc 25%, transparent 25%),
+    linear-gradient(35deg, #ccc 25%, transparent 25%);	
+    background-size: 100px 100px;
+    background-color: #eee;
+}
+
+
+
+
+
+
+footer{
+    background-color: #f8f8f8;
+    padding: 20px;
+    user-select: none;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
